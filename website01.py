@@ -27,7 +27,7 @@ image1 = Image.open('BibliografiaBASICA.jpg')
 image2 = Image.open('BibliografiaComplementar1.jpg')
 st.image(image, caption='Web site em desenvolvimento')
 st.markdown(":books:")	
-st.title("LINGUAGENS DE PROGRAMAÇÃO")
+st.title("AMBIENTE DE MONITORIA")
 SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 28px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
 
