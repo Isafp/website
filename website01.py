@@ -84,22 +84,27 @@ if task1 == "Horários de monitoria":
 
 if task1 == "Dicas": 
     
-    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Blue; font-size: 26px;"> 01 - ... </p>'
+    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 01 - ... </p>'
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
 
     cols02 = st.columns(1)
     cols02[0].write(' ')
 
-    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Blue; font-size: 26px;"> 02 - ... </p>'
+    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 02 - ... </p>'
     st.markdown(SUB_TITULO1_2, unsafe_allow_html=True)
     
     cols03 = st.columns(1)
     cols03[0].write(' ')
     
-    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Blue; font-size: 26px;"> 03 - ... </p>'
+    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 03 - ... </p>'
     st.markdown(SUB_TITULO1_3, unsafe_allow_html=True)
 
     cols04 = st.columns(1)
     cols04[0].write(' ')
     
+if task1 == "Contato": 
     
+    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Grenn; font-size: 20px;">Meios de Contato: </p>'
+    st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
+    cols05 = st.columns(1)
+    cols05[0].write('  ')
