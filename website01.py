@@ -72,8 +72,7 @@ task1 = st.selectbox("👈 Selecione a opção desejada:",
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="DataFrame Demo", page_icon="📊")
 
-    st.markdown("# DataFrame Demo")
-      st.markdown(
+    st.markdown(
     """
     ##### CRONOGRAMA
     DIA | HORÁRIO | LOCAL
