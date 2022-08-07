@@ -46,8 +46,8 @@ with col1:
     st.info(
        """
     ### ***Atenção, calouro!***
-    Para você que está começando agora linguagem de programação, este material tem o intuito de te ***auxiliar*** com a matéria explanada nas aulas.
-    Terá uma escrita mais informal e de fácil compreenção, com o ***MEU*** ponto de vista do conteúdo.
+    Para você que está começando agora linguagem de programação, este material tem o intuito de te **auxiliar** com a matéria explanada nas aulas.
+    Terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
     """    
     )
 with col2:
@@ -56,27 +56,31 @@ with col2:
     ### ***Vale Lembrar que:***
     O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
     Esper que tenhamos um semestre agradável e de muito aprendizado! Até logo 
-    st.markdown(":heart:")
+    :heart:
     """
     )
 
 st.markdown("""
-#### ***Para referenciar este material:*** """)
+#### ***Para desenvolver esse mateiral eu usei:*** """)
 st.warning("IGARASHI, Massaki de O. LINGUAGENS DE PROGRAMAÇÃO. Campinas - SP, 2022, v.1 01 de agosto de 2022. Disponível em: [link](endereço).")
     
-task1 = st.selectbox("👈 Selecione a linguagem desejada:",
-                    ["Linguagem de Programação C++", 
-                     "Análise de Dados",                                
-                     "Linguagem de Programação R"                           
+task1 = st.selectbox("👈 Selecione a opção desejada:",
+                    ["Horários de monitoria", 
+                     "Dicas",                                
+                     "Contato"                           
                      ])                                  
-if task1 == "Análise de Dados": 
+if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="DataFrame Demo", page_icon="📊")
 
     st.markdown("# DataFrame Demo")
-    st.sidebar.header("DataFrame Demo")
-    st.write(
-        """This demo shows how to use `st.write` to visualize Pandas DataFrames.
-    (Data courtesy of the [UN Data Explorer](http://data.un.org/Explorer.aspx).)"""
+      st.markdown(
+    """
+    ##### CRONOGRAMA
+    DIA | HORÁRIO | LOCAL
+    :---------: | :------: | :-------:
+    Quarta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)
+    Sexta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)    
+    """
     )
 
 
