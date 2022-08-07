@@ -46,8 +46,8 @@ with col1:
     st.info(
        """
     ### ***Atenção, calouro!***
-    Para você que está começando agora linguagem de programação, este material tem o intuito de te **auxiliar** com a matéria explanada nas aulas.
-    Terá uma linguagem mais informal e de fácil compreenção, com o **meu** ponto de vista do conteúdo.
+    Para você que está começando agora linguagem de programação, este material tem o intuito de te ***auxiliar*** com a matéria explanada nas aulas.
+    Terá uma escrita mais informal e de fácil compreenção, com o ***MEU*** ponto de vista do conteúdo.
     """    
     )
 with col2:
@@ -55,7 +55,8 @@ with col2:
     """
     ### ***Vale Lembrar que:***
     O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
-    Esper que tenhamos um semestre agradável e de muito aprendizado! Até logo
+    Esper que tenhamos um semestre agradável e de muito aprendizado! Até logo 
+    st.markdown(":heart:")
     """
     )
 
