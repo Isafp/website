@@ -22,7 +22,7 @@ nome = df['Nome']
 #st.write(df)
 #st.write(df['email'])
 
-image = Image.open('codigos.jfif')
+image = Image.open('sun.png')
 image1 = Image.open('BibliografiaBASICA.jpg')
 image2 = Image.open('BibliografiaComplementar1.jpg')
 st.image(image, caption='Web site em desenvolvimento')
