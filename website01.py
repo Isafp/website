@@ -22,7 +22,7 @@ nome = df['Nome']
 #st.write(df)
 #st.write(df['email'])
 
-image = Image.open('sun.png')
+image = Image.open('monitoria_.png')
 image1 = Image.open('BibliografiaBASICA.jpg')
 image2 = Image.open('BibliografiaComplementar1.jpg')
 st.image(image, caption='Web site em desenvolvimento')
@@ -61,8 +61,8 @@ with col2:
     )
 
 st.markdown("""
-#### ***Para desenvolver esse mateiral eu usei:*** """)
-st.warning("IGARASHI, Massaki de O. LINGUAGENS DE PROGRAMAÇÃO. Campinas - SP, 2022, v.1 01 de agosto de 2022. Disponível em: [link](endereço).")
+#### ***Para desenvolver esse mateiral eu usei a programação do site em desenvlvimento do professor Massaki Igarashi.*** """)
+st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
 task1 = st.selectbox("👈 Selecione a opção desejada:",
                     ["Horários de monitoria", 
@@ -74,8 +74,7 @@ if task1 == "Horários de monitoria":
 
     st.markdown(
     """
-    ##### CRONOGRAMA
-    DIA | HORÁRIO | LOCAL
+        DIA | HORÁRIO | LOCAL
     :---------: | :------: | :-------:
     Quarta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)
     Sexta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)    
@@ -83,49 +82,7 @@ if task1 == "Horários de monitoria":
     )
 
 
-    @st.cache
-    def get_UN_data():
-        AWS_BUCKET_URL = "http://streamlit-demo-data.s3-us-west-2.amazonaws.com"
-        df = pd.read_csv(AWS_BUCKET_URL + "/agri.csv.gz")
-        return df.set_index("Region")
-
-
-    try:
-        df = get_UN_data()
-        countries = st.multiselect(
-            "Choose countries", list(df.index), ["China", "United States of America"]
-        )
-        if not countries:
-            st.error("Please select at least one country.")
-        else:
-            data = df.loc[countries]
-            data /= 1000000.0
-            st.write("### Gross Agricultural Production ($B)", data.sort_index())
-
-            data = data.T.reset_index()
-            data = pd.melt(data, id_vars=["index"]).rename(
-                columns={"index": "year", "value": "Gross Agricultural Product ($B)"}
-            )
-            chart = (
-                alt.Chart(data)
-                .mark_area(opacity=0.3)
-                .encode(
-                    x="year:T",
-                    y=alt.Y("Gross Agricultural Product ($B):Q", stack=None),
-                    color="Region:N",
-                )
-            )
-            st.altair_chart(chart, use_container_width=True)
-    except URLError as e:
-        st.error(
-            """
-            **This demo requires internet access.**
-            Connection error: %s
-        """
-            % e.reason
-        )
-
-if task1 == "Linguagem de Programação C++": 
+if task1 == "Dicas": 
     
     st.sidebar.markdown(
     """
