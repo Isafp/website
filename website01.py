@@ -45,15 +45,17 @@ col1, col2 = st.columns((1,1))
 with col1:
     st.info(
        """
-    ### ***Atenção, principiante!***
-    Para você que é leigo e está começando agora a programar, este material introdutório, uma espécie de **guia rápido**, está estruturado **com um passo-a-passo a ser seguido** com se fosse uma "receita de bolo". Então, por favor, siga um passo de cada vez e tome cuidado para o bolo não desandar!
+    ### ***Atenção, calouro!***
+    Para você que está começando agora linguagem de programação, este material tem o intuito de te **auxiliar** com a matéria explanada nas aulas.
+    Terá uma linguagem mais informal e de fácil compreenção, com o **meu** ponto de vista do conteúdo.
     """    
     )
 with col2:
     st.info(
     """
-    ### ***Aprendizado colaborativo***
-    Projetado para fornecer aos usuários um espaço sobre algumas Linguagens de Programação. O objetivo não é substituir o conteúdo institucional disponível para aulas, mas servir de suporte complementar ao aprendizado compartilhado. Espero que você faça bom uso!
+    ### ***Vale Lembrar que:***
+    O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
+    Esper que tenhamos um semestre agradável e de muito aprendizado! Até logo
     """
     )
 
