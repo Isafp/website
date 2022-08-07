@@ -26,7 +26,7 @@ image = Image.open('sun.png')
 image1 = Image.open('BibliografiaBASICA.jpg')
 image2 = Image.open('BibliografiaComplementar1.jpg')
 st.image(image, caption='Web site em desenvolvimento')
-st.markdown(":computer:")	
+st.markdown("size: 20px >:computer:<")	
 st.title("AMBIENTE DE MONITORIA")
 SUB_TITULO = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Desenvolvido pela aluna Isabela Ferreira Paranaíba</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
