@@ -109,4 +109,4 @@ if task1 == "Contato":
     cols05 = st.columns(1)
     cols05[0].write(' Temos um grupo no Teams onde as dúvidas podem ser enviadas a qualquer hora do dia: [link](https://emojipedia.org/backhand-index-pointing-down/)  (link improvisado).')
     cols06 = st.columns(1)
-    cols06[0].write('Você pode também me enviar um e-mail com sua dúvida [link](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox).')
+    cols06[0].write('Você pode também me enviar um e-mail com sua dúvida [link](isafparanaiba@gmail.com).')
