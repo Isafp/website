@@ -23,12 +23,10 @@ nome = df['Nome']
 #st.write(df['email'])
 
 image = Image.open('sun.png')
-image1 = Image.open('BibliografiaBASICA.jpg')
-image2 = Image.open('BibliografiaComplementar1.jpg')
 st.image(image, caption='Web site em desenvolvimento')
 st.markdown(":computer:")	
 st.title("AMBIENTE DE MONITORIA")
-SUB_TITULO = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Desenvolvido pela aluna Isabela Ferreira Paranaíba</p>'
+SUB_TITULO = '<p style="font-family:tahoma; color:Green; font-size: 15px;">Desenvolvido pela aluna Isabela Ferreira Paranaíba</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
 
 mystyle = '''
@@ -113,4 +111,6 @@ if task1 == "Contato":
              - E-mail: isafparanaiba@gmail.com .
             """
             )
- SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: só serão respondidas durante o horário de monitoria, então tenha paciência</p>'
+    SUB_TITULO2_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: </p>'
+    cols05 = st.columns(1)
+    cols05[0].write('só irei responder durante o horário de monitoria, então tenha paciência. ')
