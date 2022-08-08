@@ -73,19 +73,19 @@ if task1 == "Horários de monitoria":
 
 if task1 == "Dicas": 
     
-    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 01 - ... </p>'
+    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> Dica 01 - Pratique </p>'
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
 
     cols02 = st.columns(1)
-    cols02[0].write(' ')
+    cols02[0].write(' Por experiência próprioa: a prática trás melhorias gritantes. As aulas passam muito rápido e por ter mais alunos, a distração é inevitável. Além das aulas de laboratório, tente praticar pelo menos uma vez por semana, e você verá que o conteúno fica um pouco menos complicado. ')
 
-    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 02 - ... </p>'
+    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> Dica 02 - ... </p>'
     st.markdown(SUB_TITULO1_2, unsafe_allow_html=True)
     
     cols03 = st.columns(1)
     cols03[0].write(' ')
     
-    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> 03 - ... </p>'
+    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Green; font-size: 26px;">  Dica 03 - ... </p>'
     st.markdown(SUB_TITULO1_3, unsafe_allow_html=True)
 
     cols04 = st.columns(1)
