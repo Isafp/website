@@ -77,7 +77,7 @@ if task1 == "Dicas":
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
 
     cols02 = st.columns(1)
-    cols02[0].write(' Por experiência próprioa: a prática trás melhorias gritantes. As aulas passam muito rápido e por ter mais alunos, a distração é inevitável. Além das aulas de laboratório, tente praticar pelo menos uma vez por semana, e você verá que o conteúno fica um pouco menos complicado. ')
+    cols02[0].write(' Por experiência própria: a prática provoca melhorias gritantes. As aulas passam muito rápido e com os colegas em turma, a distração é inevitável. A primeira dica que eu tenho então é: tente praticar pelo menos uma vez por semana, além das aulas de laboratório,  e você verá que o conteúdo fica um pouco menos complicado. ')
 
     SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> Dica 02 - ... </p>'
     st.markdown(SUB_TITULO1_2, unsafe_allow_html=True)
