@@ -50,7 +50,7 @@ with col2:
     )
 
 st.markdown("""
-#### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvlvimento do professor Massaki Igarashi.*** """)
+#### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
 task1 = st.selectbox("Selecione a opção desejada 👇: ",
