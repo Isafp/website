@@ -12,15 +12,6 @@ import pandas as pd
 import altair as alt
 from urllib.error import URLError
 
-r = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vTjhdfDYTI3HNP0wpxBAp_YePhfyBj9GlLAmFgW2zUsTQiWJwkY_iUvVuhiT9AD2X81uJQalB89rYlw/pub?gid=2112212887&single=true&output=csv')
-DB = r.content
-df = pd.read_csv(BytesIO(DB), index_col=0)
-df.columns = ['Curso', 'Nome', 'CPF', 'Endereco', 'Telefone', 'e-mail']
-curso = df['Curso']
-nome = df['Nome']
-#mail = df['email'][[0]
-#st.write(df)
-#st.write(df['email'])
 
 image = Image.open('sun.png')
 st.image(image, caption='Web site em desenvolvimento')
