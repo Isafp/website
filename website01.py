@@ -111,8 +111,8 @@ if task1 == "Contato":
              - E-mail: isafparanaiba@gmail.com .
             """
             )
-    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: </p>'
+    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Red; font-size: 20px;"> Atenção!: </p>'
     st.markdown(SUB_TITULO1_2, unsafe_allow_html=True)
     
     cols05 = st.columns(1)
-    cols05[0].write('só irei responder durante o horário de monitoria, então tenha paciência. ')
+    cols05[0].write('📌 Só irei responder durante o horário da monitoria, então tenha paciência que responderei o quanto antes. ')
