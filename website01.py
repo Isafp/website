@@ -104,9 +104,13 @@ if task1 == "Dicas":
     
 if task1 == "Contato": 
     
-    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Grenn; font-size: 20px;">Canais para contato: </p>'
+    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Canais para tirar as dúvidas: </p>'
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
-    cols05 = st.columns(1)
-    cols05[0].write(' Temos um grupo no Teams onde as dúvidas podem ser enviadas a qualquer hora do dia: [link](https://emojipedia.org/backhand-index-pointing-down/)  (link improvisado).')
-    cols06 = st.columns(1)
-    cols06[0].write('Você pode também me enviar um e-mail com sua dúvida [link](isafparanaiba@gmail.com).')
+    cols05 = st.info(
+            """
+            'O método que eu considero mais efetivo é de forma presencial, no laboratório, mas também será possivel enviar suas dúvidas via: 
+             - Grupo Teams: [link](https://emojipedia.org/backhand-index-pointing-down/)  (link provisório para teste).
+             - E-mail: isafparanaiba@gmail.com .
+            """
+            )
+ 
