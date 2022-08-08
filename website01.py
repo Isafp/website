@@ -111,6 +111,6 @@ if task1 == "Contato":
              - E-mail: isafparanaiba@gmail.com .
             """
             )
-    SUB_TITULO2_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: </p>'
+    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: </p>'
     cols05 = st.columns(1)
     cols05[0].write('só irei responder durante o horário de monitoria, então tenha paciência. ')
