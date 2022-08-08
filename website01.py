@@ -64,11 +64,12 @@ st.markdown("""
 #### ***Para desenvolver esse mateiral eu usei a programação do site em desenvlvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
-task1 = st.selectbox("Selecione a opção desejada::point_down: ",
+task1 =st.markdown( 
+        st.selectbox("Selecione a opção desejada::point_down: ",
                     ["Horários de monitoria", 
                      "Dicas",                                
                      "Contato"                           
-                     ])                                  
+                     ]))                                 
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
 
