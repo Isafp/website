@@ -108,9 +108,9 @@ if task1 == "Contato":
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
     cols05 = st.info(
             """
-            'O método que eu considero mais efetivo é de forma presencial, no laboratório, mas também será possivel enviar suas dúvidas via: 
+            O método que eu considero mais efetivo é de forma presencial, no laboratório, mas também será possivel enviar suas dúvidas via: 
              - Grupo Teams: [link](https://emojipedia.org/backhand-index-pointing-down/)  (link provisório para teste).
              - E-mail: isafparanaiba@gmail.com .
             """
             )
- 
+ SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Lembre-se: só serão respondidas durante o horário de monitoria, então tenha paciência</p>'
