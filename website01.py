@@ -46,8 +46,8 @@ with col1:
     st.info(
        """
     ### ***Atenção, calouro!***
-    Para você que está começando agora linguagem de programação, este material tem o intuito de te **auxiliar** com a matéria explanada nas aulas.
-    Terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
+    Este material tem o intuito de **auxiliar** os alunos que estão tendo o primeiro contato com linguagem de programação.
+    Em comparação com a matéria explanada nas aulas, este terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
     """    
     )
 with col2:
@@ -55,7 +55,7 @@ with col2:
     """
     ### ***Vale Lembrar que:***
     O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
-    Esper que tenhamos um semestre agradável e de muito aprendizado! Até logo 
+    Espero que tenhamos um semestre agradável e de muito aprendizado! Até logo 
     :heart:
     """
     )
@@ -64,7 +64,7 @@ st.markdown("""
 #### ***Para desenvolver esse mateiral eu usei a programação do site em desenvlvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
-task1 = st.selectbox("👈 Selecione a opção desejada:",
+task1 = st.selectbox("Selecione a opção desejada::point_down: ",
                     ["Horários de monitoria", 
                      "Dicas",                                
                      "Contato"                           
