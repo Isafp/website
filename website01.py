@@ -104,7 +104,8 @@ if task1 == "Dicas":
     
 if task1 == "Contato": 
     
-    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Grenn; font-size: 20px;">Meios de Contato: </p>'
+    SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Grenn; font-size: 20px;">Canais para contato: </p>'
     st.markdown(SUB_TITULO1_1, unsafe_allow_html=True)
     cols05 = st.columns(1)
-    cols05[0].write('  ')
+    cols05[0].write(' Teremos um grupo no Teams que vocês poderão enviar as dúvidas a qualquer hora do dia:[link]( ).  
+                    lll')
