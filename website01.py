@@ -64,8 +64,7 @@ if task1 == "Horários de monitoria":
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
 
     st.markdown( 
-        🕔
-    """
+     """
         DIA | HORÁRIO | LOCAL
     :---------: | :------: | :-------:
     Quarta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)
