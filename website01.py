@@ -60,7 +60,7 @@ task1 = st.selectbox("Selecione a opção desejada 👇: ",
                      "Contato"                          
                   
                     ])                                
-if task1 == "Horários de monitoria 🕔 ": 
+if task1 == "Horários de monitoria ": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
 
     st.markdown(
