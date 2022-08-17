@@ -55,9 +55,11 @@ st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6
     
 task1 = st.selectbox("Selecione a opção desejada 👇: ",
                     ["Horários de monitoria", 
+                     "Marcar presença",
                      "Dicas",                                
-                     "Contato"                           
-                     ])                                
+                     "Contato"                          
+                  
+                    ])                                
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
 
@@ -69,7 +71,16 @@ if task1 == "Horários de monitoria":
     Sexta - feira | 14h00 às 17h00 | Lab 06 (4º Andar)    
     """
     )
-
+if task1 == "Marcar presença":
+    
+    st.markdown(
+    """
+        NOME | TIA | DATA
+    :---------: | :------: | :-------:
+     |  | 
+     |  |     
+    """
+    )    
 
 if task1 == "Dicas": 
     
