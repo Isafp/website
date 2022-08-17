@@ -89,7 +89,7 @@ if task1 == "Dicas":
     st.markdown(SUB_TITULO1_3, unsafe_allow_html=True)
 
     cols04 = st.columns(1)
-    cols04[0].write('No início, a programação parece um bicho com 7 cabeças, muitas letras e símblos, parecem não fazer sentido, mas quando você começa a praticar e a entender o que cada linha faz, fica muito mais fácil. O Massaki sempre falava: "O computador não vai explodir se você errar o código", e realmente, isso não aconteceu nas inumeras vezes que eu errei (ainda). Então, pegue um programa na internet, e treine com ele, apagando ou adicionando mais linhas, assim você se familiariza com as bibliotecas e funções  ')
+    cols04[0].write('No início, a programação parece um bicho com 7 cabeças, muitas letras e símblos, que parecem não fazer sentido, mas quando você começa a praticar e a entender o que cada linha faz, fica muito mais fácil. O Massaki sempre me falava: "O computador não vai explodir se você errar o código", e realmente, isso não aconteceu nas inumeras vezes que eu errei. Então, pegue um programa na internet, e treine com ele, apagando ou adicionando mais linhas, assim você se familiariza com as bibliotecas e funções. ')
     
 if task1 == "Contato": 
     
