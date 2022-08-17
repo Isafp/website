@@ -79,17 +79,17 @@ if task1 == "Dicas":
     cols02 = st.columns(1)
     cols02[0].write(' Por experiência própria: a prática provoca melhorias gritantes. As aulas passam muito rápido e com os colegas em turma, a distração é inevitável. A primeira dica que eu tenho então é: tente praticar pelo menos uma vez por semana, além das aulas de laboratório,  e você verá que o conteúdo fica um pouco menos complicado. ')
 
-    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> Dica 02 - ... </p>'
+    SUB_TITULO1_2 = '<p style="font-family:tahoma; color:Green; font-size: 26px;"> Dica 02 - Entenda o código </p>'
     st.markdown(SUB_TITULO1_2, unsafe_allow_html=True)
     
     cols03 = st.columns(1)
-    cols03[0].write(' ')
+    cols03[0].write('As vezes o programa está muito difícil e o código não está "saindo", então podemos copiar de algum colega, ou da internet. Não tem problema copiar de alguém, mas tente entender o porquê e como o programa funciona. Isso nos leva a próxima dica: ')
     
-    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Green; font-size: 26px;">  Dica 03 - ... </p>'
+    SUB_TITULO1_3 = '<p style="font-family:tahoma; color:Green; font-size: 26px;">  Dica 03 - Não tenha medo </p>'
     st.markdown(SUB_TITULO1_3, unsafe_allow_html=True)
 
     cols04 = st.columns(1)
-    cols04[0].write(' ')
+    cols04[0].write('No início, a programação parece um bicho com 7 cabeças, muitas letras e símblos, parecem não fazer sentido, mas quando você começa a praticar e a entender o que cada linha faz, fica muito mais fácil. O Massaki sempre falava: "O computador não vai explodir se você errar o código", e realmente, isso não aconteceu nas inumeras vezes que eu errei (ainda). Então, pegue um programa na internet, e treine com ele, apagando ou adicionando mais linhas, assim você se familiariza com as bibliotecas e funções  ')
     
 if task1 == "Contato": 
     
