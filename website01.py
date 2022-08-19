@@ -73,8 +73,8 @@ if task1 == "Horários de monitoria":
     )
 if task1 == "Marcar presença":
     
-    #### ***Quando você participar da monitoria: *** """)
-st.warning("Peencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).")
+   ***Quando você participar da monitoria: *** 
+    st.warning("Peencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).")
 
 if task1 == "Dicas": 
     
