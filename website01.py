@@ -13,7 +13,7 @@ import altair as alt
 from urllib.error import URLError
 
 
-image = Image.open('monitoria.png')
+image = Image.open('Monitoria.png')
 st.image(image, caption='Web site em desenvolvimento')
 st.markdown(":computer:")	
 st.title("AMBIENTE DE MONITORIA")
@@ -73,8 +73,8 @@ if task1 == "Horários de monitoria":
     )
 if task1 == "Marcar presença":
     
-   st.markdown 
-    cols01 [0] Quando você participar da monitoria:
+   st.markdown (""" 
+    # *Quando você participar da monitoria:* """)
     st.warning("Peencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).")
 
 if task1 == "Dicas": 
