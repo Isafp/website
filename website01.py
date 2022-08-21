@@ -74,7 +74,7 @@ if task1 == "Horários de monitoria":
 if task1 == "Marcar presença":
     
    st.markdown (""" 
-    *Quando você participar da monitoria:* 
+    ###*Quando você participar da monitoria:*### 
     Peencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).""")
 
 if task1 == "Dicas": 
