@@ -56,7 +56,8 @@ st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6
 task1 = st.selectbox("Selecione a opção desejada 👇: ",
                     ["Horários de monitoria", 
                      "Marcar presença",
-                     "Dicas",                                
+                     "Dicas",
+                     "Meus códigos",
                      "Contato"                          
                   
                     ])                                
@@ -75,7 +76,7 @@ if task1 == "Marcar presença":
     
    st.markdown (""" 
     ### *Quando você participar da monitoria:* ### 
-    Peencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).""")
+    Preencha por favor: [link](https://forms.gle/R1PQwwXVqQTHXCmTA).""")
 
 if task1 == "Dicas": 
     
@@ -96,6 +97,14 @@ if task1 == "Dicas":
 
     cols04 = st.columns(1)
     cols04[0].write('No início, a programação parece um bicho com 7 cabeças, muitas letras e símblos, que parecem não fazer sentido, mas quando você começa a praticar e a entender o que cada linha faz, fica muito mais fácil. O Massaki sempre me falava: "O computador não vai explodir se você errar o código", e realmente, isso não aconteceu nas inumeras vezes que eu errei. Então, pegue um programa na internet, e treine com ele, apagando ou adicionando mais linhas, assim você se familiariza com as bibliotecas e funções. ')
+    
+if task1 == "Meus códigos":
+    st.markdown ("""
+    Tenho conta em alguns compliladores, vocês podem entrar lá e se inspirarem nos códigos disponíveis:
+    - Replit: [link] (https://replit.com/@IsabelaFerreir8).
+    - GitHub: [link] (https://github.com/Isafp).
+    - OnlineGDB: [link] (https://www.onlinegdb.com/myfiles).                                           
+                                            """)
     
 if task1 == "Contato": 
     
