@@ -101,9 +101,9 @@ if task1 == "Dicas":
 if task1 == "Meus códigos":
     st.markdown ("""
     Tenho conta em alguns compliladores, vocês podem entrar lá e se inspirarem nos códigos disponíveis:
-    - Replit: [link] (https://replit.com/@IsabelaFerreir8).
-    - GitHub: [link] (https://github.com/Isafp).
-    - OnlineGDB: [link] (https://www.onlinegdb.com/myfiles).                                           
+    - Replit: [link](https://replit.com/@IsabelaFerreir8).
+    - GitHub: [link](https://github.com/Isafp).
+    - OnlineGDB: [link](https://www.onlinegdb.com/myfiles).                                           
                                             """)
     
 if task1 == "Contato": 
