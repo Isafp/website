@@ -13,7 +13,7 @@ import altair as alt
 from urllib.error import URLError
 
 
-image = Image.open('sun.png')
+image = Image.open('Monitoria.png')
 st.image(image, caption='Web site em desenvolvimento')
 st.markdown(":computer:")	
 st.title("AMBIENTE DE MONITORIA")
