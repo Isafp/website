@@ -113,7 +113,7 @@ if task1 == "Contato":
     cols05 = st.info(
             """
             O método que eu considero mais efetivo é de forma presencial, no laboratório, mas também será possível enviar suas dúvidas via: 
-             - Grupo Teams: [link](https://emojipedia.org/backhand-index-pointing-down/)  (link provisório para teste).
+             - Grupo Teams: [link](https://teams.microsoft.com/l/channel/19%3a7xkQWvR0fCtUeibcBpxp0qY9Oukrf74CspgaJ2RAuHs1%40thread.tacv2/Geral?groupId=bce15ed0-5eb4-4b99-ba83-4575cc95481a&tenantId=51da9440-4e5e-47b3-8e5c-4817f6f43c04) .
              - E-mail: isafparanaiba@gmail.com .
             """
             )
