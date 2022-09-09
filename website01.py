@@ -57,6 +57,7 @@ task1 = st.selectbox("Selecione a opção desejada 👇: ",
                     ["Horários de monitoria", 
                      "Marcar presença",
                      "Dicas",
+                     "Software low-code",
                      "Meus códigos",
                      "Contato"                          
                   
@@ -106,6 +107,9 @@ if task1 == "Meus códigos":
     - OnlineGDB: [link](https://www.onlinegdb.com/myfiles).                                           
                                             """)
     
+if task1 == "Software low-code":
+    
+
 if task1 == "Contato": 
     
     SUB_TITULO1_1 = '<p style="font-family:tahoma; color:Green; font-size: 20px;">Canais para tirar as dúvidas: </p>'
