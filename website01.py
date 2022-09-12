@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import hashlib
 from PIL import Image
-
 from io import BytesIO
 import requests
 
@@ -54,7 +53,7 @@ st.markdown("""
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
 #task1 = 
-streamlit.sidebar.selectbox("Selecione a opção desejada 👇: ",
+streamlit.sidebar.selectbox('Selecione a opção desejada 👇: ',
                     ["Horários de monitoria", 
                      "Marcar presença",
                      "Dicas",
