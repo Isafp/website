@@ -52,7 +52,7 @@ st.markdown("""
 #### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
-task1 = sidebar('Selecione a opção desejada 👇: ',
+task1 = sidebar('Selecione a opção desejada 👇: ',)
                     ["Horários de monitoria", 
                      "Marcar presença",
                      "Dicas",
