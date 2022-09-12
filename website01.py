@@ -19,7 +19,20 @@ st.title("AMBIENTE DE MONITORIA")
 SUB_TITULO = '<p style="font-family:tahoma; color:Green; font-size: 15px;">Desenvolvido pela aluna Isabela Ferreira Paranaíba</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
 
-mystyle = '''
+
+st.markdown("""
+#### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
+st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
+    
+add_selectbox = st.sidebar.selectbox (
+    'Selecione a opção desejada 👇: ',
+     (""Inicio", "Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" )
+)   
+if task1 == "Home":
+    st.markdown (""" 
+    ### *Pagina inicial.* ### 
+                """)
+    mystyle = '''
     <style>
         p {
             text-align: justify;
@@ -47,19 +60,6 @@ with col2:
     :heart:
     """
     )
-
-st.markdown("""
-#### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
-st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
-    
-add_selectbox = st.sidebar.selectbox (
-    'Selecione a opção desejada 👇: ',
-     ("Home", Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" )
-)   
-if task1 == "Home":
-    st.markdown (""" 
-    ### *Pagina inicial.* ### 
-                """)
     
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
