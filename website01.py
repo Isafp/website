@@ -37,7 +37,7 @@ with col1:
     ### ***Atenção, calouro!***
     Este material tem o intuito de **auxiliar** os alunos que estão tendo o primeiro contato com linguagem de programação.
     Em comparação com a matéria explanada nas aulas, este terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
-    {3.210002:0.02f}"""    
+    """    
     )
 with col2:
     st.info(
@@ -53,7 +53,7 @@ st.markdown("""
 #### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
-task1 = st.selectbox("Selecione a opção desejada 👇: ",
+task1 = streamlit.sidebar.selectbox("Selecione a opção desejada 👇: ",
                     ["Horários de monitoria", 
                      "Marcar presença",
                      "Dicas",
