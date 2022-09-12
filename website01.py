@@ -39,27 +39,27 @@ if task1 == "Home":
         }
     </style>
     '''
-st.markdown(mystyle, unsafe_allow_html=True)
-# Generate tree equal columns
-#col1, col2, col3 = st.columns((1, 1, 1))
-col1, col2 = st.columns((1,1))
-with col1:
-    st.info(
-       """
-    ### ***Atenção, calouro!***
-    Este material tem o intuito de **auxiliar** os alunos que estão tendo o primeiro contato com linguagem de programação.
-    Em comparação com a matéria explanada nas aulas, este terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
-    """    
-    )
-with col2:
-    st.info(
-    """
-    ### ***Vale Lembrar que:***
-    O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
-    Espero que tenhamos um semestre agradável e de muito aprendizado! Até logo 
-    :heart:
-    """
-    )
+    st.markdown(mystyle, unsafe_allow_html=True)
+    # Generate tree equal columns
+    #col1, col2, col3 = st.columns((1, 1, 1))
+    col1, col2 = st.columns((1,1))
+    with col1:
+        st.info(
+           """
+        ### ***Atenção, calouro!***
+        Este material tem o intuito de **auxiliar** os alunos que estão tendo o primeiro contato com linguagem de programação.
+        Em comparação com a matéria explanada nas aulas, este terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
+        """    
+        )
+    with col2:
+        st.info(
+        """
+        ### ***Vale Lembrar que:***
+        O objetivo deste site não é substituir as aulas ministradas pelo professor Massaki Igarashi, tão pouco a monitoria presencial.
+        Espero que tenhamos um semestre agradável e de muito aprendizado! Até logo 
+        :heart:
+        """
+        )
     
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
