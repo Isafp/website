@@ -53,7 +53,7 @@ st.markdown("""
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
 #task1 = 
-streamlit.sidebar.selectbox('Selecione a opção desejada 👇: ',
+streamlit.sidebar('Selecione a opção desejada 👇: ',
                     ["Horários de monitoria", 
                      "Marcar presença",
                      "Dicas",
