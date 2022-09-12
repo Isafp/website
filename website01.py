@@ -52,8 +52,10 @@ st.markdown("""
 #### ***Como base para desenvolver esse mateiral, eu usei a programação do site em desenvolvimento do professor Massaki Igarashi.*** """)
 st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6.streamlitapp.com/).")
     
-task1 = sidebar.selectbox ('Selecione a opção desejada 👇: ',
-                    ("Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" ))                                
+add_selectbox = st.sidebar.selectbox (
+    'Selecione a opção desejada 👇: ',
+     ("Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" )
+)                                
 if task1 == "Horários de monitoria": 
     #st.set_page_config(page_title="Horários", page_icon=":alarm_clock:")
 
