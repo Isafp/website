@@ -37,7 +37,7 @@ with col1:
     ### ***Atenção, calouro!***
     Este material tem o intuito de **auxiliar** os alunos que estão tendo o primeiro contato com linguagem de programação.
     Em comparação com a matéria explanada nas aulas, este terá uma escrita mais informal e de fácil compreenção, com o **MEU** ponto de vista do conteúdo.
-    """    
+    {3.210002:0.02f}"""    
     )
 with col2:
     st.info(
