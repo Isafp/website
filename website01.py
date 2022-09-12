@@ -26,7 +26,7 @@ st.warning("Site: [link](https://massakiigarashi2-streamlitwebapp-website-5g8yl6
     
 add_selectbox = st.sidebar.selectbox (
     'Selecione a opção desejada 👇: ',
-     (""Inicio", "Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" )
+     ("Horários de monitoria", "Marcar presença", "Dicas", "Software low-code", "Meus códigos", "Contato" )
 )   
 if task1 == "Home":
     st.markdown (""" 
